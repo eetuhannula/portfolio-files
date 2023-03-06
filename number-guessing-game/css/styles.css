@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: rgb(9, 240, 9);
+    font-family: consolas;
+}
+.header img {
+    display: block;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.game {
+    padding-top: 10pxpx;
+    text-align: center;
+}
+
+input {
+    font-family: consolas;
+    background-color: rgb(105, 0, 70);
+    padding: 10px 10px 10px 40px;
+    margin: 0;
+    /* display: inline-block; */
+    border: 2px solid  rgb(9, 240, 9);
+    border-radius: 4px;
+    /* box-sizing: border-box; */
+    background-image: url(../images/numicon.png);
+    background-position: 7px; 
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+button {
+    font-family: consolas;
+    font-size: 15px;
+    background-color: rgb(105, 0, 70);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  @media (min-width: 500px) {
+    .header img {
+        width: 20%;
+    }
+  }
