@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddd;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color: #2a2a2a;
+}
+
+.header h1 {
+    color: white;
+    font-family: 'Pacifico', cursive;
+    padding: 0 20px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+}
+
+/*KONTROLLERIT*/
+
+.controllers {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+.manualcontroller {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.readmecontroller {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.pagecontroller {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.filtercontroller {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.dbcontrol {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+/*README*/
+
+.readmevisible:hover + .readmehidden{
+    position: absolute;
+    display: block;
+}
+.readmehidden:hover {
+    position: absolute;
+    display: block;
+}
+.readmehidden{
+    display: none;
+    max-width: 400px;
+    font-family: monospace;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+
+/*FILTERIT*/
+
+.filters:hover + .filtershidden{
+    position: absolute;
+    display: block;
+}
+.filtershidden:hover {
+    position: absolute;
+    display: block;
+}
+.filtershidden{
+    display: none;
+    font-family: monospace;
+    padding: 20px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.filtershidden p  {
+    margin: 10px;
+}
+
+
+
+/*INFO ALUE*/
+.infoarea {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.infoarea h2 {
+    margin: 0;
+    padding: 15px 5px 0 5px;
+}
+
+.dbupdate h2 {
+    font-family: monospace;
+    font-size: 30px;
+    color: red;
+}
+
+/*TAULUKKO*/
+.dataview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+    background-color: white;
+}
+td {
+    padding: 5px;
+    background-color: lightgray;
+    font-family: monospace;
+    font-size: 16px;
+}
+
