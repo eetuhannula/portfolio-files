@@ -4,7 +4,7 @@ This repository contains smaller projects, tests and funhavings that I wished to
 ## place-doughnut
 - Learning how XR works with Three.js 
 - can be tested at my website (eetuhannula.com/place-doughnut)
-- 
+
 ## alko-catalog
 - Learning project to PHP, MySQL and setting up server
 - Not currently hosted anywhere. Folder contains couple image examples
